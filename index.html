@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="demo">触摸获取素材<br><br>
+    选择题：<br>
+    &nbsp;&nbsp;《国家中长期教育改革和发展规划纲要(2010-2020年)》中指出，学前教育的发展任务是()。<br>
+    A、大力发展学前教育，发展贫困地区学前教育<br>
+    B、全面发展学前教育，发展中西部地区学前教育<br>
+    C、普及学前教育，发展贫困地区学前教育<br>
+    D、基本普及学前教育，发展农村学前教育<br><br>
+
+    判断题：<br>
+    &nbsp;&nbsp;每天太阳都从西边出来！并且java是世界上最好的语言！<br><br>
+
+    简答题：<br>
+    &nbsp;&nbsp;为啥程序员没得对象，可是为啥程序员每天还要面对对象编程？
+  </div>
+  <div class="formBuilder">
+    <div class="fb-left">
+      <ul class="fb-tabs">
+        <li class="addField active">Add new field</li>
+        <li class="editField">Edit field</li>
+      </ul>
+      <div class="fb-tab-content">
+        <div class="section">
+          <div class="fb-button" id="single">单选题</div>
+          <div class="fb-button" id="judge">判断题</div>
+        </div>
+        <div class="section">
+          <div class="fb-button" id="multiple">多选题</div>
+          <div class="fb-button" id="blank">填空题</div>
+        </div>
+        <div class="section">
+          <div class="fb-button" id="brief">简答题</div>
+          <div class="fb-button">复合题</div>
+        </div>
+        
+      </div>
+      <div class="fb-edit" style="display: none;">
+        <div class="edit-nav">
+          <div>请编辑您的题目信息 </div>
+          <div>题目类型:<span class="title-type"></span></div>
+        </div>
+        <div class="edit-title">题目：
+          <hr>
+          <textarea class="title" name="" id="" cols="30" rows="10" placeholder="请输入题目..."></textarea>
+        </div>
+        <div class="edit-option">选项：
+          <hr>
+          <textarea name="" id="" cols="30" rows="10" placeholder="请输入选项A..."></textarea>
+          <textarea name="" id="" cols="30" rows="10" placeholder="请输入选项B..."></textarea>
+          <textarea name="" id="" cols="30" rows="10" placeholder="请输入选项C..."></textarea>
+          <textarea name="" id="" cols="30" rows="10" placeholder="请输入选项D..."></textarea>
+        </div>
+        <div class="edit-score">分数：
+          <hr>
+          <input class="setscore" type="text">&nbsp;&nbsp;:分
+          <button class="editEnter">确认</button>
+        </div>
+        
+      </div>
+    </div>
+    <div class="fb-right"></div>
+  </div>
+
+
+
+
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

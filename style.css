@@ -1,0 +1,301 @@
+*{
+  box-sizing: border-box;
+
+}
+@font-face {
+  font-family: Font1;
+  src: url(../web-font/对你不止是喜欢.ttf);
+}
+
+body{
+  background-color: #444;
+}
+
+.formBuilder{
+  background-color: #fff;
+  border-radius: 5px;
+  min-height: 600px;
+  max-width: 1000px;
+  margin: 8px auto;
+  padding: 0 20px 0 0;
+  /* position: relative; */
+}
+
+.fb-left{
+  
+  float: left;
+  width: 320px;
+  padding-top: 30px;
+  font-family: Font1;
+  
+}
+
+.fb-tabs{
+  margin: 0 0 20px 0;
+  padding: 0 0 0 20px;
+  border-bottom: 1px solid #ccc;
+  
+}
+
+
+.fb-tabs li  {
+  display: inline-block;
+  padding: 10px;
+  
+  font-size: 18px;
+  cursor: pointer;
+
+}
+
+
+.active {
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #ccc;
+  margin-bottom: -1px;
+  border-bottom-color: #fff;
+
+}
+
+
+
+.fb-tab-content{
+  padding: 0 20px;
+}
+
+
+
+.fb-tab-content .section{
+  width: 100%;
+  height: 48px;
+  margin: 5px 0;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.fb-tab-content .section .fb-button{
+  width: 48%;
+  height: 40px;
+  margin: 0px 10px;
+  flex: 1;
+
+  background-color: #16a085;
+  border-radius: 3px;
+  cursor: pointer;
+
+  line-height: 40px;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+ 
+  box-shadow: 5px 5px 5px rgba(0.1, 0.1, 0.1, 0.1);
+}
+
+
+.fb-edit{
+  /* height: 300px; */
+  width: 100%;
+  /* background-color: royalblue; */
+  padding: 0px 20px;
+  font-family: Font1;
+  font-size: 18px;
+  }
+
+.fb-edit textarea{
+  border: thin solid #ddd;
+  border-radius: .25em;
+  margin-bottom: 15px;
+
+}
+
+.fb-edit hr{
+  color: #eee;
+}
+
+
+
+.edit-nav{
+  width: 100%;
+  height: 80px;
+  margin-bottom: 15px;
+  border: 1px solid  #eee;
+  background-color: #eee;
+}
+
+.edit-nav div{
+  margin: 10px;
+}
+
+.edit-title textarea{
+  width: 100%;
+  height: 100px;
+
+  
+}
+
+.edit-option textarea{
+  width: 100%;
+  height: 40px;
+}
+
+
+.edit-score input{
+  width: 60px;
+  height: 40px;
+  border: thin solid #ddd;
+  border-radius: .25em;
+  font-size: 18px;
+}
+
+.edit-score button{
+  width: 80px;
+  height: 40px;
+  border: thin solid #74b9ff ;
+  border-radius: .25em;
+  background-color: #74b9ff;
+  color: #fff;
+
+  margin-left: 30%;
+}
+.edit-score button:hover{
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fb-right{
+  padding-top: 70px;
+  margin-left: 320px;
+  border-left: 1px solid #ddd;
+  padding-left: 20px;
+  min-height: 100%;
+  overflow: hidden;
+  min-height: 700px;
+  /* position: relative; */
+}
+
+.inputs{
+  width: 600px;
+  min-height: 200px;
+  
+  /* /* background-color: saddlebrown; */
+  /* border: 1px solid saddlebrown ;  */
+  margin: 10px;
+  z-index: 2;
+}
+
+.place {
+  /* border: 1px dashed red; */
+  margin: 5px 10px;
+}
+
+
+
+
+.single{
+  width: 600px;
+  min-height: 200px;
+  border: 1px dashed #fff ;
+  /* background-color: cadetblue; */
+  
+
+}
+
+.dash{
+  border: 1px dashed;
+  /* transform: translate(-1px,-1px); */
+  /* margin: 1px 0 0 1px; */
+  /* padding: -1px; */
+}
+.question{
+  width: 560px;
+  /* height: 80px; */
+  margin: 10px 20px;
+  padding: 20px;
+  /* background-color: #f5f3ec; */
+}
+
+.options{
+  list-style: none;
+  position: relative;
+}
+.option_Box{
+  width: 100%;
+  height: 50px;
+
+  padding-left: 30px;
+}
+
+.option_Box button{
+  width: 34px;
+  height: 34px;
+
+  line-height: 34px;
+  text-align: center;
+  
+  border-radius: 4px;
+
+  font-size: 15px;
+
+  float: left;
+  margin-right: 16px;;
+  cursor: pointer;
+  
+  border: none;
+  /* background: #2f97f3; */
+  background: #f8f8f8;
+  /* color: #fff; */
+  color: #333;
+}
+
+
+
+.answer{
+  width: 560px;
+  height: 200px;
+  border: 1px solid  #e2d9d9;
+  margin: 0 20px 10px 20px ;
+}
+
+
+.delInpt{
+  width: 25px;
+  height: 25px;
+  
+
+  float: right;
+  cursor: pointer;
+}
+
+.hid{
+  color: rgb(228, 87, 87);
+}
+
+
+.demo{
+  width: 250px;
+  height: 40px;
+  /* background-color: #ccc; */
+  float: right;
+  color: #fff;
+  cursor: pointer;
+  /* text-align: center; */
+  /* margin-right: 20px; */
+  overflow: hidden;
+}
+
+
+.demo:hover{
+  height: 500px;
+}
